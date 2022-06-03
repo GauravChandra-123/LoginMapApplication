@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">LoginMapApplication</string>
+    <string name="location_permission_denied">LocationDisplayManager cannot run because location permission was denied</string>
+    <string name="service_layer_url">https://eicappserver.esri.in/server/rest/services/NATMO/POI_Survey/FeatureServer/</string>
+    <string name="description">Description</string>
+    <string name="pointLayer_endpoint">0</string>
+    <string name="unsupported_option">Unsupported option</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_map">Save Map</string>
+    <string name="enter_tags_separated_by_commas">Category(Police Station, Hospital, School)</string>
+    <string name="enter_description">Enter description</string>
+    <string name="enter_title">Name(Point,Line,Polygon)</string>
+
+    <string name="feature_added">Feature successfully added</string>
+
+    <string name="error_cannot_add_to_feature_table">Cannot add a feature to this feature table</string>
+    <string name="error_applying_edits">Exception applying edits on server: %s</string>
+
+    <string-array name="Geometry">
+        <item>Point</item>
+        <item>Line</item>
+        <item>Polygon</item>
+
+
+    </string-array>
+
+    <!--<string-array name="States">
+
+
+    </string-array>-->
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormActivity">
+
+    <TextView
+        android:id="@+id/point_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Form"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <TextView
+        android:id="@+id/point_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: "
+        android:layout_below="@+id/point_form"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/ed_category"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/point_category"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"/>
+
+
+    <TextView
+        android:id="@+id/point_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description: "
+        android:layout_below="@+id/ed_category"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/ed_description"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/point_description"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textMultiLine"
+        android:maxLines="1"
+        android:minLines="1"/>
+
+
+    <TextView
+        android:id="@+id/point_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State: "
+        android:layout_below="@+id/ed_description"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/spinner_state"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/point_state"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/point_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_state"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="City Name: "
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/ed_city"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/point_city"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/point_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: "
+        android:layout_below="@+id/ed_city"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/ed_address"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/point_address"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:inputType="textMultiLine"
+        android:maxLines="1"
+        android:minLines="1"/>
+
+    <TextView
+        android:id="@+id/point_pincode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pin Code: "
+        android:layout_below="@+id/ed_address"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+
+
+    <EditText
+        android:id="@+id/ed_pincode"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/point_pincode"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:minLines="1"/>
+
+    <Button
+        android:id="@+id/point_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ed_pincode"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="Submit" />
+
+
+
+</RelativeLayout>

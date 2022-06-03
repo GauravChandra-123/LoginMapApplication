@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Select Base Map">
+        <menu>
+            <item android:id="@+id/basemap1"
+                android:title="Street"
+                android:icon="@drawable/image"/>
+
+            <item android:id="@+id/basemap2"
+                android:title="Navigation"
+                android:icon="@drawable/navimage"/>
+
+            <item android:id="@+id/basemap3"
+                android:title="Topographic"
+                android:icon="@drawable/topoimage"/>
+
+            <item android:id="@+id/basemap4"
+                android:title="Terrain"
+                android:icon="@drawable/terrimage"/>
+
+            <item android:id="@+id/basemap5"
+                android:title="Gray Canvas"
+                android:icon="@drawable/grayimage"/>
+
+            <item android:id="@+id/basemap6"
+                android:title="OSM Gray Canvas"
+                android:icon="@drawable/osmgrayimage"/>
+
+
+
+        </menu>
+
+
+    </item>
+
+</menu>

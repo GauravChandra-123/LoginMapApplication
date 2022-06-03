@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/point"
+        android:title="Point"/>
+    <item
+        android:id="@+id/line"
+        android:title="Line"/>
+    <item
+        android:id="@+id/polygon"
+        android:title="Polygon"/>
+
+</menu>
